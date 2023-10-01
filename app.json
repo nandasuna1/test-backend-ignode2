@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "scrap-social-app",
+    "slug": "scrap-social-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/scrapIcon.jpg",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.scrapsocial"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/scrapIcon.jpg",
+        "backgroundColor": "#ffffff",
+      },
+      "package": "com.scrapsocial"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "376f452b-b035-4a8c-8513-9df7f2d421c1"
+      }
+    }
+  }
+}

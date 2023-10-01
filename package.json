@@ -1,0 +1,34 @@
+{
+  "name": "test-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": ">= 18"
+  },
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "knex": "node --no-warnings --loader tsx ./node_modules/knex/bin/cli.js",
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cookie": "^9.1.0",
+    "@types/supertest": "^2.0.13",
+    "dotenv": "^16.3.1",
+    "fastify": "^4.22.2",
+    "knex": "^2.5.1",
+    "pg": "^8.11.3",
+    "sqlite3": "^5.1.6",
+    "zod": "^3.22.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.6.0",
+    "supertest": "^6.3.3",
+    "tsx": "^3.12.8",
+    "typescript": "^5.2.2",
+    "vitest": "^0.34.6"
+  }
+}
